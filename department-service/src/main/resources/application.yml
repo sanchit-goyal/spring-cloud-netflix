@@ -1,7 +1,7 @@
 # Spring properties
 spring:
   application:
-     name: employee-service
+     name: department-service
 
 # Discovery Server Access
 eureka:
@@ -11,4 +11,4 @@ eureka:
     
 # HTTP Server
 server:
-  port: 3333   # HTTP (Tomcat) port
+  port: 4444   # HTTP (Tomcat) port
