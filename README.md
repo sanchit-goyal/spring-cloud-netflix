@@ -6,20 +6,20 @@ http://localhost:1111/
 ## Employee-Service
 http://localhost:3333/employees
 
-** using Zuul
+**Using Zuul**
 http://localhost:1111/api/employee-service/employees
 
 ## Department Service
 http://localhost:4444/departments
 
-** using Zuul
+**using Zuul**
 http://localhost:1111/api/department-service/departments
 
 
 ## Lookup Service
 
-** Using FeignClient
+**Using FeignClient**
 http://localhost:2222/lookup/departments
 
-** Spring RestTemplate
+**Spring RestTemplate**
 http://localhost:2222/lookup/employees	
