@@ -22,4 +22,12 @@ http://localhost:1111/api/department-service/departments
 http://localhost:2222/lookup/departments
 
 **Spring RestTemplate**
-http://localhost:2222/lookup/employees	
+http://localhost:2222/lookup/employees
+
+##Hystrix
+
+**Hystrix Dashboard**
+http://localhost:8001/hystrix/
+
+**Lookup Service hystrix stream**
+http://localhost:2222/hystrix.stream	
