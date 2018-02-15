@@ -24,7 +24,7 @@ http://localhost:2222/lookup/departments
 **Spring RestTemplate**
 http://localhost:2222/lookup/employees
 
-##Hystrix
+## Hystrix
 
 **Hystrix Dashboard**
 http://localhost:8001/hystrix/
