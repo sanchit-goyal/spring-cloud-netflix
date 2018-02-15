@@ -20,7 +20,7 @@ import com.koko.spring.model.Department;
 
 @RestController
 @RequestMapping("/departments")
-public class DepartmentResource {
+public class DepartmentController {
 	private static Map<Integer, Department> repository = new HashMap<>();
 	private AtomicInteger counter = new AtomicInteger(6);
 

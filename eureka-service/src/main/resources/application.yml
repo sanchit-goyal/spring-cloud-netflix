@@ -15,4 +15,7 @@ zuul:
   routes:
     employee-service:
       path: /employee-service/**
-      url: http://localhost:2222
+      url: http://localhost:3333
+    department-service:
+      path: /department-service/**
+      url: http://localhost:4444

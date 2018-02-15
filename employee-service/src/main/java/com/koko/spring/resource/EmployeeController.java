@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/employees")
-public class EmployeeResource {
+public class EmployeeController {
 	private static Map<Integer, Employee> repository = new HashMap<>();
 	private AtomicInteger counter = new AtomicInteger(6);
 
