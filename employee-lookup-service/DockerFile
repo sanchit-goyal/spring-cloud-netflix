@@ -1,0 +1,4 @@
+FROM openjdk:8
+ADD target/employee-lookup-service.jar employee-lookup-service.jar
+EXPOSE 2222
+ENTRYPOINT ["java", "-jar", "employee-lookup-service.jar"]

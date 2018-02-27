@@ -12,7 +12,7 @@
         <module>department-service</module>
         <module>employee-service</module>
 		<module>employee-lookup-service</module>
+		<module>eureka-service</module>
 		<module>hystrix-service</module>
     </modules>
-
 </project>

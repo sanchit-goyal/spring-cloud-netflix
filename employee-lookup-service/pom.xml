@@ -73,7 +73,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>employee-lookup-service</finalName>
 	</build>
-
 
 </project>
